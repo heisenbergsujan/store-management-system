@@ -2,7 +2,7 @@
   include("index.php");
   ?>
 <main class="main-container">
-  <form action="" method="POST" class="insert__item--form">
+  <form action="insert.php" method="POST" class="insert__item--form">
       <h2 class="form--heading">Insert Item details</h2>
 
       
@@ -26,9 +26,9 @@
       
 
       <div class="insert--form__buttons">
-         <button type="submit">Add item</button>
-         <button type="button">Clear</button>
-         <button type="submit">Delete</button>
+         <button type="submit" class="buttons submit--btn">Add item</button>
+         <button type="button" class="buttons clear--btn">Clear</button>
+         <button type="submit" class="buttons delete--btn">Delete</button>
       </div>
    
   </form>

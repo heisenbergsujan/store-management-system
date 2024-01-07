@@ -86,7 +86,7 @@ body {
 }
 
 .insert__item--form {
-  margin: 5rem;
+  margin: 4rem;
   padding: 0.8rem 5.4rem;
   display: grid;
   gap: 2rem;
@@ -118,7 +118,23 @@ textarea {
   transition: 0.3s;
 }
 
-input:focus,
-textarea:focus {
-  border: var(--color-background-900);
+/*insert from button*/
+.buttons {
+  border: none;
+  margin: 0.25rem;
+
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  padding: 0.8rem 1.2rem;
+  border-radius: 7px;
+}
+.submit--btn {
+  background-color: #5dd39e;
+}
+.clear--btn {
+  background-color: #3626a7;
+}
+.delete--btn {
+  background-color: #ff331f;
 }

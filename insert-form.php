@@ -1,5 +1,6 @@
 <?php
   include("index.php");
+  
   ?>
 <main class="main-container">
   <form action="insert.php" method="POST" class="insert__item--form">
@@ -18,7 +19,7 @@
     
       <label for="photo" class="label--photo">Photo:</label>
       <input type="file" name="photo" id="" class="input--photo"/>
-      </div>
+     
       
     
       <label for="remarks" class="label--remarks">Remarks:</label>
